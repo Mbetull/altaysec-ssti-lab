@@ -16,8 +16,6 @@
 *Server-Side Template Injection · 3 Seviye · CTF Tarzı · Docker Tabanlı*
 
 [![Docker](https://img.shields.io/badge/Docker-Required-2496ED?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/)
-[![Platform](https://img.shields.io/badge/AltaySec-CTF-red?style=flat-square)]()
-[![Year](https://img.shields.io/badge/Siber_Vatan-2026-orange?style=flat-square)]()
 
 </div>
 
