@@ -80,10 +80,10 @@
 </main>
 
 <script>
-    // Flag tetiklendiğinde banner'ı açar
     window.onload = function() {
         const outputText = document.getElementById('output-area').innerText;
-        if (outputText.includes('ALTAYSEC{')) {
+        // Hem bayrağı hem de config nesnesinin içeriğini (genellikle <Config {...} şeklinde başlar) kontrol eder
+        if (outputText.includes('ALTAYSEC{') || outputText.includes('<Config')) {
             document.getElementById('solved-banner').style.display = 'block';
         }
     };
